@@ -1,0 +1,92 @@
+
+body {
+  padding: 108px 15px;
+  margin: 30px 0;
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -0.8px;
+  color: #1C1C1C;
+}
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero-image {
+    order: 1;
+    max-width: 100%;
+    border-radius: var(--border-radius)
+  }
+  main {
+    order: 2;
+  }
+  .partners-title {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #969696;
+    margin-bottom: 30px;
+  }
+  .partners-wrapper {
+    display: flex;
+    flex-grow: unset;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    gap: 16px 32px;
+  }
+  .logo {
+    width: 100px;
+    object-fit: contain;
+  }
+  .body {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+  }
+
+.button {
+  display: inline-block;
+  padding: var(--button-padding);
+  box-shadow: var(--button-shadow);
+  background: var(--primary-color);
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--button-text-color);
+  font-weight: 600;
+  line-height: 26px;
+  border-radius:  var(--border-radius);
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+@media (min-width: 568px) and (orientation: landscape) {
+  .body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.3px;
+    text-align: left;
+  }
+  .hero-body {
+    max-width: 396px;
+  }
+  body {
+    padding: 108px 30px;
+    margin: 30px 0;
+  }
+  .title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: left;
+  }
+}
+

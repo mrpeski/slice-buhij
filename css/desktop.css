@@ -1,0 +1,33 @@
+@media (min-width: 992px) {
+  body {
+    padding: 188px 100px;
+  }
+  /*.hero-image {*/
+  /*  max-width: 392px*/
+  /*}*/
+  .title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: left;
+  }
+  .body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+  }
+  .hero-body {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .partners-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
